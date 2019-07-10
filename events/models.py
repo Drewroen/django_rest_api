@@ -13,4 +13,4 @@ class Event(models.Model):
     time = models.DateTimeField(default=timezone.now)
     location = models.CharField(max_length=256, blank=True)
     description = models.TextField(blank=True)
-    dress_code = models.CharField(max_length=128, blank=True)
+    dress_code = models.CharField(max_length=256, blank=True)
